@@ -1,16 +1,22 @@
 {
-  "name": "demo",
+  "name": "inventory",
   "version": "1.0.0",
-  "description": "This is for demo purpose",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "this is for learning purpose",
+  "main": "yes",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
   },
-  "keywords": [
-    "demo"
-  ],
-  "author": "Pankaj Kumar",
+  "devDependencies": {
+    "async": "^2.6.1",
+    "mongoose": "^5.2.8",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "PKD",
   "license": "ISC"
 }
